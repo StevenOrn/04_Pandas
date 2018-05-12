@@ -103,7 +103,7 @@ students_df = pd.read_csv(stu_path)
 
 
 ######Not Sure of passing rate so made a variable#########
-passing_rate = 60
+passing_rate = 70
 
 ```
 
@@ -411,7 +411,7 @@ ds_df.style.format({"% Passing Math": "{:.2%}", "% Passing Reading": "{:.2%}", "
 
 <style  type="text/css" >
 </style>  
-<table id="T_e02f4dca_54c6_11e8_8bbe_4a0002456160" > 
+<table id="T_baf5ee3a_5609_11e8_908a_4a0002456160" > 
 <thead>    <tr> 
         <th class="blank level0" ></th> 
         <th class="col_heading level0 col0" >Total Schools</th> 
@@ -424,15 +424,15 @@ ds_df.style.format({"% Passing Math": "{:.2%}", "% Passing Reading": "{:.2%}", "
         <th class="col_heading level0 col7" >Overall Passing Rate</th> 
     </tr></thead> 
 <tbody>    <tr> 
-        <th id="T_e02f4dca_54c6_11e8_8bbe_4a0002456160level0_row0" class="row_heading level0 row0" >0</th> 
-        <td id="T_e02f4dca_54c6_11e8_8bbe_4a0002456160row0_col0" class="data row0 col0" >15</td> 
-        <td id="T_e02f4dca_54c6_11e8_8bbe_4a0002456160row0_col1" class="data row0 col1" >39170</td> 
-        <td id="T_e02f4dca_54c6_11e8_8bbe_4a0002456160row0_col2" class="data row0 col2" >$24649428</td> 
-        <td id="T_e02f4dca_54c6_11e8_8bbe_4a0002456160row0_col3" class="data row0 col3" >78.9854</td> 
-        <td id="T_e02f4dca_54c6_11e8_8bbe_4a0002456160row0_col4" class="data row0 col4" >81.8778</td> 
-        <td id="T_e02f4dca_54c6_11e8_8bbe_4a0002456160row0_col5" class="data row0 col5" >92.45%</td> 
-        <td id="T_e02f4dca_54c6_11e8_8bbe_4a0002456160row0_col6" class="data row0 col6" >100.00%</td> 
-        <td id="T_e02f4dca_54c6_11e8_8bbe_4a0002456160row0_col7" class="data row0 col7" >96.22%</td> 
+        <th id="T_baf5ee3a_5609_11e8_908a_4a0002456160level0_row0" class="row_heading level0 row0" >0</th> 
+        <td id="T_baf5ee3a_5609_11e8_908a_4a0002456160row0_col0" class="data row0 col0" >15</td> 
+        <td id="T_baf5ee3a_5609_11e8_908a_4a0002456160row0_col1" class="data row0 col1" >39170</td> 
+        <td id="T_baf5ee3a_5609_11e8_908a_4a0002456160row0_col2" class="data row0 col2" >$24649428</td> 
+        <td id="T_baf5ee3a_5609_11e8_908a_4a0002456160row0_col3" class="data row0 col3" >78.9854</td> 
+        <td id="T_baf5ee3a_5609_11e8_908a_4a0002456160row0_col4" class="data row0 col4" >81.8778</td> 
+        <td id="T_baf5ee3a_5609_11e8_908a_4a0002456160row0_col5" class="data row0 col5" >74.98%</td> 
+        <td id="T_baf5ee3a_5609_11e8_908a_4a0002456160row0_col6" class="data row0 col6" >85.81%</td> 
+        <td id="T_baf5ee3a_5609_11e8_908a_4a0002456160row0_col7" class="data row0 col7" >80.39%</td> 
     </tr></tbody> 
 </table> 
 
@@ -547,9 +547,9 @@ school_sum_df
       <td>655.0</td>
       <td>76.629414</td>
       <td>81.182722</td>
-      <td>0.888584</td>
-      <td>1.0</td>
-      <td>0.944292</td>
+      <td>0.656839</td>
+      <td>0.813164</td>
+      <td>0.735002</td>
     </tr>
     <tr>
       <th>Figueroa High School</th>
@@ -559,9 +559,9 @@ school_sum_df
       <td>639.0</td>
       <td>76.711767</td>
       <td>81.158020</td>
-      <td>0.884368</td>
-      <td>1.0</td>
-      <td>0.942184</td>
+      <td>0.659885</td>
+      <td>0.807392</td>
+      <td>0.733639</td>
     </tr>
     <tr>
       <th>Shelton High School</th>
@@ -571,9 +571,9 @@ school_sum_df
       <td>600.0</td>
       <td>83.359455</td>
       <td>83.725724</td>
-      <td>1.000000</td>
-      <td>1.0</td>
-      <td>1.000000</td>
+      <td>0.938671</td>
+      <td>0.958546</td>
+      <td>0.948609</td>
     </tr>
     <tr>
       <th>Hernandez High School</th>
@@ -583,9 +583,9 @@ school_sum_df
       <td>652.0</td>
       <td>77.289752</td>
       <td>80.934412</td>
-      <td>0.890831</td>
-      <td>1.0</td>
-      <td>0.945415</td>
+      <td>0.667530</td>
+      <td>0.808630</td>
+      <td>0.738080</td>
     </tr>
     <tr>
       <th>Griffin High School</th>
@@ -595,9 +595,9 @@ school_sum_df
       <td>625.0</td>
       <td>83.351499</td>
       <td>83.816757</td>
-      <td>1.000000</td>
-      <td>1.0</td>
-      <td>1.000000</td>
+      <td>0.933924</td>
+      <td>0.971390</td>
+      <td>0.952657</td>
     </tr>
     <tr>
       <th>Wilson High School</th>
@@ -607,9 +607,9 @@ school_sum_df
       <td>578.0</td>
       <td>83.274201</td>
       <td>83.989488</td>
-      <td>1.000000</td>
-      <td>1.0</td>
-      <td>1.000000</td>
+      <td>0.938677</td>
+      <td>0.965396</td>
+      <td>0.952037</td>
     </tr>
     <tr>
       <th>Cabrera High School</th>
@@ -619,9 +619,9 @@ school_sum_df
       <td>582.0</td>
       <td>83.061895</td>
       <td>83.975780</td>
-      <td>1.000000</td>
-      <td>1.0</td>
-      <td>1.000000</td>
+      <td>0.941335</td>
+      <td>0.970398</td>
+      <td>0.955867</td>
     </tr>
     <tr>
       <th>Bailey High School</th>
@@ -631,9 +631,9 @@ school_sum_df
       <td>628.0</td>
       <td>77.048432</td>
       <td>81.033963</td>
-      <td>0.895297</td>
-      <td>1.0</td>
-      <td>0.947649</td>
+      <td>0.666801</td>
+      <td>0.819333</td>
+      <td>0.743067</td>
     </tr>
     <tr>
       <th>Holden High School</th>
@@ -643,9 +643,9 @@ school_sum_df
       <td>581.0</td>
       <td>83.803279</td>
       <td>83.814988</td>
-      <td>1.000000</td>
-      <td>1.0</td>
-      <td>1.000000</td>
+      <td>0.925059</td>
+      <td>0.962529</td>
+      <td>0.943794</td>
     </tr>
     <tr>
       <th>Pena High School</th>
@@ -655,9 +655,9 @@ school_sum_df
       <td>609.0</td>
       <td>83.839917</td>
       <td>84.044699</td>
-      <td>1.000000</td>
-      <td>1.0</td>
-      <td>1.000000</td>
+      <td>0.945946</td>
+      <td>0.959459</td>
+      <td>0.952703</td>
     </tr>
     <tr>
       <th>Wright High School</th>
@@ -667,9 +667,9 @@ school_sum_df
       <td>583.0</td>
       <td>83.682222</td>
       <td>83.955000</td>
-      <td>1.000000</td>
-      <td>1.0</td>
-      <td>1.000000</td>
+      <td>0.933333</td>
+      <td>0.966111</td>
+      <td>0.949722</td>
     </tr>
     <tr>
       <th>Rodriguez High School</th>
@@ -679,9 +679,9 @@ school_sum_df
       <td>637.0</td>
       <td>76.842711</td>
       <td>80.744686</td>
-      <td>0.885471</td>
-      <td>1.0</td>
-      <td>0.942736</td>
+      <td>0.663666</td>
+      <td>0.802201</td>
+      <td>0.732933</td>
     </tr>
     <tr>
       <th>Johnson High School</th>
@@ -691,9 +691,9 @@ school_sum_df
       <td>650.0</td>
       <td>77.072464</td>
       <td>80.966394</td>
-      <td>0.891829</td>
-      <td>1.0</td>
-      <td>0.945915</td>
+      <td>0.660576</td>
+      <td>0.812224</td>
+      <td>0.736400</td>
     </tr>
     <tr>
       <th>Ford High School</th>
@@ -703,9 +703,9 @@ school_sum_df
       <td>644.0</td>
       <td>77.102592</td>
       <td>80.746258</td>
-      <td>0.893027</td>
-      <td>1.0</td>
-      <td>0.946513</td>
+      <td>0.683096</td>
+      <td>0.792990</td>
+      <td>0.738043</td>
     </tr>
     <tr>
       <th>Thomas High School</th>
@@ -715,9 +715,9 @@ school_sum_df
       <td>638.0</td>
       <td>83.418349</td>
       <td>83.848930</td>
-      <td>1.000000</td>
-      <td>1.0</td>
-      <td>1.000000</td>
+      <td>0.932722</td>
+      <td>0.973089</td>
+      <td>0.952905</td>
     </tr>
   </tbody>
 </table>
@@ -780,16 +780,40 @@ school_sum_df.sort_values(by='Overall Passing Rate', ascending=False).head(5)
   </thead>
   <tbody>
     <tr>
-      <th>Shelton High School</th>
+      <th>Cabrera High School</th>
       <td>Charter</td>
-      <td>1761</td>
-      <td>1056600</td>
-      <td>600.0</td>
-      <td>83.359455</td>
-      <td>83.725724</td>
-      <td>1.0</td>
-      <td>1.0</td>
-      <td>1.0</td>
+      <td>1858</td>
+      <td>1081356</td>
+      <td>582.0</td>
+      <td>83.061895</td>
+      <td>83.975780</td>
+      <td>0.941335</td>
+      <td>0.970398</td>
+      <td>0.955867</td>
+    </tr>
+    <tr>
+      <th>Thomas High School</th>
+      <td>Charter</td>
+      <td>1635</td>
+      <td>1043130</td>
+      <td>638.0</td>
+      <td>83.418349</td>
+      <td>83.848930</td>
+      <td>0.932722</td>
+      <td>0.973089</td>
+      <td>0.952905</td>
+    </tr>
+    <tr>
+      <th>Pena High School</th>
+      <td>Charter</td>
+      <td>962</td>
+      <td>585858</td>
+      <td>609.0</td>
+      <td>83.839917</td>
+      <td>84.044699</td>
+      <td>0.945946</td>
+      <td>0.959459</td>
+      <td>0.952703</td>
     </tr>
     <tr>
       <th>Griffin High School</th>
@@ -799,9 +823,9 @@ school_sum_df.sort_values(by='Overall Passing Rate', ascending=False).head(5)
       <td>625.0</td>
       <td>83.351499</td>
       <td>83.816757</td>
-      <td>1.0</td>
-      <td>1.0</td>
-      <td>1.0</td>
+      <td>0.933924</td>
+      <td>0.971390</td>
+      <td>0.952657</td>
     </tr>
     <tr>
       <th>Wilson High School</th>
@@ -811,33 +835,9 @@ school_sum_df.sort_values(by='Overall Passing Rate', ascending=False).head(5)
       <td>578.0</td>
       <td>83.274201</td>
       <td>83.989488</td>
-      <td>1.0</td>
-      <td>1.0</td>
-      <td>1.0</td>
-    </tr>
-    <tr>
-      <th>Cabrera High School</th>
-      <td>Charter</td>
-      <td>1858</td>
-      <td>1081356</td>
-      <td>582.0</td>
-      <td>83.061895</td>
-      <td>83.975780</td>
-      <td>1.0</td>
-      <td>1.0</td>
-      <td>1.0</td>
-    </tr>
-    <tr>
-      <th>Holden High School</th>
-      <td>Charter</td>
-      <td>427</td>
-      <td>248087</td>
-      <td>581.0</td>
-      <td>83.803279</td>
-      <td>83.814988</td>
-      <td>1.0</td>
-      <td>1.0</td>
-      <td>1.0</td>
+      <td>0.938677</td>
+      <td>0.965396</td>
+      <td>0.952037</td>
     </tr>
   </tbody>
 </table>
@@ -898,18 +898,6 @@ school_sum_df.sort_values(by='Overall Passing Rate', ascending=True).head(5)
   </thead>
   <tbody>
     <tr>
-      <th>Figueroa High School</th>
-      <td>District</td>
-      <td>2949</td>
-      <td>1884411</td>
-      <td>639.0</td>
-      <td>76.711767</td>
-      <td>81.158020</td>
-      <td>0.884368</td>
-      <td>1.0</td>
-      <td>0.942184</td>
-    </tr>
-    <tr>
       <th>Rodriguez High School</th>
       <td>District</td>
       <td>3999</td>
@@ -917,9 +905,21 @@ school_sum_df.sort_values(by='Overall Passing Rate', ascending=True).head(5)
       <td>637.0</td>
       <td>76.842711</td>
       <td>80.744686</td>
-      <td>0.885471</td>
-      <td>1.0</td>
-      <td>0.942736</td>
+      <td>0.663666</td>
+      <td>0.802201</td>
+      <td>0.732933</td>
+    </tr>
+    <tr>
+      <th>Figueroa High School</th>
+      <td>District</td>
+      <td>2949</td>
+      <td>1884411</td>
+      <td>639.0</td>
+      <td>76.711767</td>
+      <td>81.158020</td>
+      <td>0.659885</td>
+      <td>0.807392</td>
+      <td>0.733639</td>
     </tr>
     <tr>
       <th>Huang High School</th>
@@ -929,21 +929,9 @@ school_sum_df.sort_values(by='Overall Passing Rate', ascending=True).head(5)
       <td>655.0</td>
       <td>76.629414</td>
       <td>81.182722</td>
-      <td>0.888584</td>
-      <td>1.0</td>
-      <td>0.944292</td>
-    </tr>
-    <tr>
-      <th>Hernandez High School</th>
-      <td>District</td>
-      <td>4635</td>
-      <td>3022020</td>
-      <td>652.0</td>
-      <td>77.289752</td>
-      <td>80.934412</td>
-      <td>0.890831</td>
-      <td>1.0</td>
-      <td>0.945415</td>
+      <td>0.656839</td>
+      <td>0.813164</td>
+      <td>0.735002</td>
     </tr>
     <tr>
       <th>Johnson High School</th>
@@ -953,9 +941,21 @@ school_sum_df.sort_values(by='Overall Passing Rate', ascending=True).head(5)
       <td>650.0</td>
       <td>77.072464</td>
       <td>80.966394</td>
-      <td>0.891829</td>
-      <td>1.0</td>
-      <td>0.945915</td>
+      <td>0.660576</td>
+      <td>0.812224</td>
+      <td>0.736400</td>
+    </tr>
+    <tr>
+      <th>Ford High School</th>
+      <td>District</td>
+      <td>2739</td>
+      <td>1763916</td>
+      <td>644.0</td>
+      <td>77.102592</td>
+      <td>80.746258</td>
+      <td>0.683096</td>
+      <td>0.792990</td>
+      <td>0.738043</td>
     </tr>
   </tbody>
 </table>
@@ -1479,33 +1479,33 @@ spending_bin["Average Math Score","Average Reading Score","% Passing Math", "% P
       <th>&lt;$585</th>
       <td>83.455399</td>
       <td>83.933814</td>
-      <td>1.000000</td>
-      <td>1.0</td>
-      <td>1.000000</td>
+      <td>0.934601</td>
+      <td>0.966109</td>
+      <td>0.950355</td>
     </tr>
     <tr>
       <th>$585-615</th>
       <td>83.599686</td>
       <td>83.885211</td>
-      <td>1.000000</td>
-      <td>1.0</td>
-      <td>1.000000</td>
+      <td>0.942309</td>
+      <td>0.959003</td>
+      <td>0.950656</td>
     </tr>
     <tr>
       <th>$615-645</th>
       <td>79.079225</td>
       <td>81.891436</td>
-      <td>0.926361</td>
-      <td>1.0</td>
-      <td>0.963180</td>
+      <td>0.756682</td>
+      <td>0.861066</td>
+      <td>0.808874</td>
     </tr>
     <tr>
       <th>$645-675</th>
       <td>76.997210</td>
       <td>81.027843</td>
-      <td>0.890415</td>
-      <td>1.0</td>
-      <td>0.945207</td>
+      <td>0.661648</td>
+      <td>0.811340</td>
+      <td>0.736494</td>
     </tr>
   </tbody>
 </table>
@@ -1562,25 +1562,25 @@ size_bin["Average Math Score","Average Reading Score","% Passing Math", "% Passi
       <th>Small(&lt;1000)</th>
       <td>83.821598</td>
       <td>83.929843</td>
-      <td>1.000000</td>
-      <td>1.0</td>
-      <td>1.000000</td>
+      <td>0.935502</td>
+      <td>0.960994</td>
+      <td>0.948248</td>
     </tr>
     <tr>
       <th>Medium(1000-2000)</th>
       <td>83.374684</td>
       <td>83.864438</td>
-      <td>1.000000</td>
-      <td>1.0</td>
-      <td>1.000000</td>
+      <td>0.935997</td>
+      <td>0.967907</td>
+      <td>0.951952</td>
     </tr>
     <tr>
       <th>Larg(2000-5000)</th>
       <td>77.746417</td>
       <td>81.344493</td>
-      <td>0.903676</td>
-      <td>1.0</td>
-      <td>0.951838</td>
+      <td>0.699634</td>
+      <td>0.827666</td>
+      <td>0.763650</td>
     </tr>
   </tbody>
 </table>
@@ -1637,20 +1637,27 @@ type_bin["Average Math Score","Average Reading Score","% Passing Math", "% Passi
       <th>Charter</th>
       <td>83.473852</td>
       <td>83.896421</td>
-      <td>1.000000</td>
-      <td>1.0</td>
-      <td>1.000000</td>
+      <td>0.936208</td>
+      <td>0.965865</td>
+      <td>0.951037</td>
     </tr>
     <tr>
       <th>District</th>
       <td>76.956733</td>
       <td>80.966636</td>
-      <td>0.889915</td>
-      <td>1.0</td>
-      <td>0.944958</td>
+      <td>0.665485</td>
+      <td>0.807991</td>
+      <td>0.736738</td>
     </tr>
   </tbody>
 </table>
 </div>
 
+
+
+#* You must include a written description of three observable trends based on the data. 
+
+    1) Charter schools have a better passing rate than district schools
+    2) Small schools compared to medium schools have a larger variance because it has a higher average score but lower passing rate
+    3) Less spending results in higher scores(probably lower spending == smaller schools)
 
