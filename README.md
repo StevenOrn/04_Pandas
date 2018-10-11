@@ -8,7 +8,7 @@ Now, it's time to take what you've learned about Python Pandas and apply it to n
 
 ## Option 1: Heroes of Pymoli
 
-![Fantasy](Images/Fantasy.jpg)
+![Fantasy](Images/Fantasy.jpg?raw=true)
 
 Congratulations! After a lot of hard work in the data munging mines, you've landed a job as Lead Analyst for an independent gaming company. You've been assigned the task of analyzing the data for their most recent fantasy game Heroes of Pymoli. 
 
@@ -82,11 +82,11 @@ As final considerations:
 * You must submit a link to your Jupyter Notebook with the viewable Data Frames. 
 * You must include an exported markdown version of your Notebook called  `README.md` in your GitHub repository.  
 * You must include a written description of three observable trends based on the data. 
-* See [Example Solution](HeroesOfPymoli/HeroesOfPymoli_Example.pdf) for a reference on expected format. 
+* See [Example Solution](HeroesOfPymoli/HeroesOfPymoli_Example.pdf?raw=true) for a reference on expected format. 
 
 ## Option 2: Academy of Py
 
-![Education](Images/education.jpg)
+![Education](Images/education.jpg?raw=true)
 
 Well done! Having spent years analyzing financial records for big banks, you've finally scratched your idealistic itch and joined the education sector. In your latest role, you've become the Chief Data Scientist for your city's school district. In this capacity, you'll be helping the  school board and mayor make strategic decisions regarding future school budgets and priorities.
 
@@ -170,7 +170,7 @@ As final considerations:
 * You must submit a link to your Jupyter Notebook with the viewable Data Frames. 
 * You must include an exported markdown version of your Notebook called  `README.md` in your GitHub repository.  
 * You must include a written description of three observable trends based on the data. 
-* See [Example Solution](PyCitySchools/PyCitySchools_Example.pdf) for a reference on the expected format. 
+* See [Example Solution](PyCitySchools/PyCitySchools_Example.pdf?raw=true) for a reference on the expected format. 
 
 ## Hints and Considerations
 
